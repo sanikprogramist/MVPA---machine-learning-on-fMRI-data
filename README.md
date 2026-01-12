@@ -2,6 +2,10 @@
 
 This repository contains a machine learning pipeline that decodes gaze direction from fMRI brain activity recorded while participants explored a virtual environment. Using multi-voxel pattern analysis (MVPA) and searchlight-style models, the pipeline predicts the direction a person was looking from their brain responses.
 
+Results example
+![Decoding results example](results.JPG)
+On this image you can see voxels in red/yellow, from which we were able to decode the heading direction of the experiment participant with the highest accuracies.
+
 Important: This work requires raw fMRI/behavioral data that cannot be shared publicly due to participant privacy. The code can be run with your own (appropriately consented and preprocessed) datasets.
 
 The core analyses train and evaluate classifiers/regressors on brain activity features (beta images), use cross-validation, and report held-out decoding performance — this is supervised machine learning applied to neuroimaging.
@@ -13,8 +17,7 @@ Project layout
 - `file_path_manager.py` — Centralize dataset and output paths (edit before running).
 - `requirementsMVPA.txt` — Python dependencies.
 
-Results example
-![Decoding results example](results.JPG)
+
 
 Quick start
 1. Prepare environment and install dependencies:
