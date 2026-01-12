@@ -14,7 +14,7 @@ Project layout
 - `requirementsMVPA.txt` — Python dependencies.
 
 Results example
-![Decoding results example](results.jpg)
+![Decoding results example](results.JPG)
 
 Quick start
 1. Prepare environment and install dependencies:
