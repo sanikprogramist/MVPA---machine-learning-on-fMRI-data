@@ -1,0 +1,12 @@
+numpy
+pandas
+nilearn
+scipy
+matplotlib
+seaborn
+spyder
+scikit-learn
+spyder-kernels
+pathlib
+openpyxl
+pickle
