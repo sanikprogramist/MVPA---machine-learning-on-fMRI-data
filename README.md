@@ -2,8 +2,8 @@
 
 This repository contains a machine learning pipeline that decodes gaze direction from fMRI brain activity recorded while participants explored a virtual environment. Using multi-voxel pattern analysis (MVPA) and searchlight-style models, the pipeline predicts the direction a person was looking from their brain responses.
 
-Results example
-![Decoding results example](results.JPG)
+## Results example
+![Decoding results example](screenshots/results.JPG)
 On this image you can see voxels in red/yellow, from which we were able to decode the heading direction of the experiment participant with the highest accuracies.
 
 Important: This work requires raw fMRI/behavioral data that cannot be shared publicly due to participant privacy. The code can be run with your own (appropriately consented and preprocessed) datasets.
