@@ -18,3 +18,4 @@ dist/
 build/
 code_graveyard.py
 start_IDE.sh
+searchlight_on_raw_images.py
